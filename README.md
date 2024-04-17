@@ -1,5 +1,16 @@
 # Tema: Sistema para vendas de uma livraria online
-Sistema efetua o passo a passo de um pedido de uma venda para uma livraria física, mas que deseja implementar pedidos online.
+Sistema efetua o passo a passo de um pedido de uma venda para uma livraria física, mas que deseja implementar pedidos online. <br>
+
+- Sistema de cadastro de clientes, funcionários e produtos;
+- Gerenciamento de estoque;
+- Consulta de pedidos efetuados;
+- Pagamento;
+- Emissão de nota fiscal
+
+## Caso de Uso - Efetuar Pedido
+<b>Ator Primário:</b> Cliente; <br>
+<b>Pré-requisito:</b> Logar no sistema
+
 ### Fluxo Normal:
 1. 	O cliente efetua o pedido no sistema;
 2.	O sistema verifica se a quantidade solicitada está disponível em estoque;
@@ -30,3 +41,11 @@ Sistema efetua o passo a passo de um pedido de uma venda para uma livraria físi
 ### Fluxo Alternativo: falha na entrega
 6.1 Sistema exibe mensagem de erro<br>
 6.2 Pedido é cancelado
+
+### Requisitos
+[RF001] - Manter dados dos Clientes; <br>
+[RF002] - Manter dados dos Funcionários; <br>
+[RF003] - Manter dados dos Produtos; <br>
+[RF004] - Manter dados do Estoque; <br> 
+[RF005] - Manter dados dos Pagamentos; <br>
+[RF006] - Manter dados dos Pedidos;
