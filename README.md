@@ -1,12 +1,18 @@
 # Tema: Sistema para vendas de uma livraria online
 Sistema efetua o passo a passo de um pedido de uma venda para um pequeno comércio que possua uma loja física, mas que deseja implementar pedidos online. <br>
 
+## Lógica de Negócio
+
 - Sistema de cadastro de clientes, funcionários e produtos;<br>
+Para utilizar o programa, clientes, funcionários e produtos é necessário efetuar um cadastro
 - Efetuar Pedidos;
-- Gerenciamento de estoque;
-- Consulta de pedidos efetuados;
+- Gerenciamento de estoque;<br>
+Após efetuado um pedido o estoque deve ser atualizado
+- Consulta e atualização de pedidos efetuados;<br>
+Clientes e Funcionários devem ser capazes de consultar e atualizar pedidos.
 - Pagamento;
-- Emissão de nota fiscal
+- Emissão de nota fiscal<br>
+Após pedido efetuado com sucesso é emitido uma nota fiscal
 
 ## Caso de Uso - Efetuar Pedido
 <b>Ator Primário:</b> Cliente; <br>
@@ -21,9 +27,9 @@ Sistema efetua o passo a passo de um pedido de uma venda para um pequeno comérc
   5.1.	Vender CD à vista;<br>
   5.2.	Vender CD à prazo;<br>
 6.	O sistema aguarda a baixa do pagamento
-7.	O estoque é atualizado
-8.	Pedido sai para entrega
-9.	O sitema emite nota fiscal
+7.	O sitema emite nota fiscal
+8.	O estoque é atualizado
+9.	Pedido sai para entrega
 10.	Sistema é encerrado
 
 ### Fluxo Alternativo: o cliente não possui cadastro
