@@ -1,7 +1,8 @@
 # Tema: Sistema para vendas de uma livraria online
-Sistema efetua o passo a passo de um pedido de uma venda para uma livraria física, mas que deseja implementar pedidos online. <br>
+Sistema efetua o passo a passo de um pedido de uma venda para um pequeno comércio que possua uma loja física, mas que deseja implementar pedidos online. <br>
 
-- Sistema de cadastro de clientes, funcionários e produtos;
+- Sistema de cadastro de clientes, funcionários e produtos;<br>
+- Efetuar Pedidos;
 - Gerenciamento de estoque;
 - Consulta de pedidos efetuados;
 - Pagamento;
