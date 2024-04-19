@@ -1,4 +1,3 @@
-// Function to register a customer
 const Cliente = require('../models/Cliente.js');
 const Produto = require('../models/Produto.js');
 const Pedido = require('../models/Pedido.js');
